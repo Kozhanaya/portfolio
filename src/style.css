@@ -18,6 +18,18 @@
   );
 }
 
+@layer utilities { 
+  .no-scrollbar::-webkit-scrollbar { 
+    display: none; 
+  } 
+
+  .no-scrollbar { 
+    overflow: auto;
+    -ms-overflow: hidden;
+    scrollbar-width: none; 
+  } 
+}
+
 @font-face {
   font-family: "Oxanium";
   src: url("/public/fonts/Oxanium/Oxanium-VariableFont_wght.ttf")
