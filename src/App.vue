@@ -4,13 +4,15 @@ import TheFooter from "./components/TheFooter.vue";
 </script>
 
 <template>
-  <TheHeader />
+  <div class="font-[Oxanium] max-w-full sm:max-w-[85%] mx-4 sm:mx-auto">
+    <TheHeader />
 
-  <main>
-    <RouterView />
-  </main>
+    <main>
+      <RouterView />
+    </main>
 
-  <TheFooter />
+    <TheFooter />
+  </div>
 </template>
 
 <style scoped></style>
