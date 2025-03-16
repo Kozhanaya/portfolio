@@ -32,7 +32,7 @@
 
 @font-face {
   font-family: "Oxanium";
-  src: url("/public/fonts/Oxanium/Oxanium-VariableFont_wght.ttf")
+  src: url("/fonts/Oxanium/Oxanium-VariableFont_wght.ttf")
     format("truetype");
   font-weight: 200 800;
   font-style: normal;

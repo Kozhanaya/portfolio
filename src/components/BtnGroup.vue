@@ -4,7 +4,7 @@
 
 <template>
   <div class="relative w-full">
-    <div class="flex items-center justify-start gap-4 px-4 sm:gap-8 sm:justify-center no-scrollbar">
+    <div class="flex items-center justify-start gap-4 px-4 sm:gap-8 sm:justify-center no-scrollbar py-1">
       <slot></slot>
     </div>
 
